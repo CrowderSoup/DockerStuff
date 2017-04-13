@@ -1,2 +1,6 @@
+# OS X Bullshit
+**/*.DS_Store
+
+# Data's for the things
 mysql/data
 couchbase/data
