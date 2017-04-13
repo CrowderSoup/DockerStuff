@@ -33,3 +33,15 @@ static-file-server/start.sh -d <YourStaticSiteDirectory> -p <WhateverPortYouWant
 This will start up a server that will server whatever directory you point it to
 on whatever port you specify. This makes testing static sites on a robust
 server a bit easier.
+
+## Couchbase
+
+Really simple, and basically the same setup as the MySQL server. It will create
+a Couchbase server for you to use at the standard couchbase ports (8091).
+
+To start it:
+```
+cd couchbase && ./start.sh
+```
+
+Then go to [http://localhost:8091](http://localhost:8091) to finish setup.
