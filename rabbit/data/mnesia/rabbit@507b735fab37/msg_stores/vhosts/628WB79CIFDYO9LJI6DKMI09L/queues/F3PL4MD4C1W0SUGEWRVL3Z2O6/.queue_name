@@ -1,0 +1,2 @@
+VHOST: /
+QUEUE: webhooks.wait.2000
