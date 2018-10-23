@@ -44,4 +44,14 @@ To start it:
 cd couchbase && ./start.sh
 ```
 
+## RabbitMQ
+
+Just your basic RabbitMQ setup. Should be sufficient for local dev/testing
+purposes.
+
+To start it:
+```
+cd rabbit && ./start.sh
+```
+
 Then go to [http://localhost:8091](http://localhost:8091) to finish setup.
