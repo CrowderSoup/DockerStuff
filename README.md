@@ -20,6 +20,14 @@ should see it listed. I have mapped it to `localhost:32773` because
 reasons<sup>tm</sup>. It also creates a directory called `data` which allows
 this container to maintain state between starting / stopping.
 
+## PostgreSQL
+
+This will spin up a postgres server for you, with the default PG port open
+(5432). The data volume is stored in `./postgres/data` so you can tear down and
+delete the container without blowing away the data. If you **need** to delete
+the data, simply tear down the container, delete that directory, and start it
+back up.
+
 ## Static Server
 
 This will spin up an Nginx server pointed to a directory of your choosing. It
