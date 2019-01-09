@@ -28,6 +28,11 @@ delete the container without blowing away the data. If you **need** to delete
 the data, simply tear down the container, delete that directory, and start it
 back up.
 
+To start it:
+```
+cd postgres && ./start.sh
+```
+
 ## Static Server
 
 This will spin up an Nginx server pointed to a directory of your choosing. It
