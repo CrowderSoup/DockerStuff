@@ -64,3 +64,22 @@ To start it:
 cd rabbit && ./start.sh
 ```
 
+## Redis
+
+Default / basic Redis server. Default port (6379) mapped. Data is mapped to
+volume `./data` for persistence. This directory is created when you run the
+start script.
+
+To start:
+```
+cd redis && ./start.sh
+```
+
+## memcached
+
+Default / basic memcached server. Default port (11211) is mapped.
+
+To start:
+```
+cd memcached && ./start.sh
+```

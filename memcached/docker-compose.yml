@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  memcache:
+    image: memcached
+    container_name: memcache
+    ports:
+      - 11211:11211
