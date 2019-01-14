@@ -2,7 +2,4 @@
 **/*.DS_Store
 
 # Data's for the things
-mysql/data
-postgres/data
-couchbase/data
-rabbit/data
+data/
