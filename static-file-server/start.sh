@@ -38,4 +38,4 @@ echo "Port: $port"
 export DIRECTORY=$directory
 export PORT=$port
 
-docker-compose -f $basename/docker-compose.yml up
+docker-compose up -d
