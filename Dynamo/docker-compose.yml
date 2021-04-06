@@ -6,4 +6,6 @@ services:
     volumes:
       - ./data:/home/dynamodblocal/data
     ports:
-      - 8000:8000
+      - 3004:8000
+    expose:
+      - 3004
